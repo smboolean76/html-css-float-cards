@@ -39,3 +39,12 @@ h1 {
     text-align: center;
     padding: 40px 0;
 }
+
+.card {
+    float: left;
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
+    height: 100px;
+    background-color: #000;
+    border: 2px solid red;
+}
