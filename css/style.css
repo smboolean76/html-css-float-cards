@@ -44,7 +44,27 @@ h1 {
     float: left;
     width: calc(100% / 3 - 30px);
     margin: 15px;
+    background-color: #0f0e17;
+    color: #fff;
     height: 100px;
-    background-color: #000;
-    border: 2px solid red;
+    box-shadow: 0px 0px 10px 5px rgb(200 200 200);
+    /* 
+    border: 2px solid red; */
+}
+.card-img {
+    display: block;
+    height: 100%;
+    float: left;
+}
+.card-info {
+    float: left;
+    width: calc(100% - 100px);
+    padding: 9px 15px;
+}
+.card-info > a {
+    text-decoration: none;
+    color: #63cbf2;
+}
+.team-role {
+    margin: 10px 0;
 }
