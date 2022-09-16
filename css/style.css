@@ -1,0 +1,41 @@
+/*--------------------
+    RESET
+--------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------
+    COMMON    
+--------------------*/
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.container {
+    max-width: 1150px;
+    margin: auto;
+}
+
+/*--------------------
+    TYPOGRAPHY    
+--------------------*/
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+h1 {
+    font-size: 38px;
+    color: #E53170;
+    margin-bottom: 40px;
+}
+
+/*--------------------
+    MAIN    
+--------------------*/
+.header-section {
+    text-align: center;
+    padding: 40px 0;
+}
